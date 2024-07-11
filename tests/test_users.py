@@ -1,6 +1,6 @@
 from http import HTTPStatus
 
-from tgtapi.schemas.user import UserPublic
+from fastapi_template.schemas.user import UserPublic
 
 
 def test_create_user(client, token):
